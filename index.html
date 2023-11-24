@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODEPIN</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(55, 155, 155);
+      color: white;
+      font-family: 'poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      height: 100px;
+      background-color: rgb(85, 155, 155);
+      font-size: 20px;
+      align-items: center;
+
+
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+
+
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 20px;
+      cursor: pointer;
+      color: rgb(20, 18, 18);
+      position: relative;
+      right: 30px;
+
+
+
+
+    }
+
+    nav ul li :hover {
+      color: aqua;
+      font-size: 22px;
+
+    }
+
+    nav .p {
+      margin: 35px;
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(25, 21, 32);
+      font-weight: 900;
+
+
+    }
+
+    section.intro {
+      display: flexbox;
+      font-size: 20px;
+      border-radius: 5px solid red;
+
+    }
+
+    img {
+      height: auto;
+      width: auto;
+
+    }
+
+    div.box {
+      border: 0;
+      margin: 30px;
+      position: absolute;
+      width: 40%;
+      height: 35%;
+      text-align: center;
+      left: 700px;
+      top: 180px;
+      grid-gap: 50em;
+    }
+
+    img.l1 {
+      width: 180px;
+      padding: 6px;
+      border-radius: 80%;
+    }
+
+    div.photo {
+      text-align: right;
+      padding-right: 120px;
+      top: -100px;
+      position: relative;
+    }
+
+    div.name {
+      text-align: right;
+      padding-right: 120px;
+      position: relative;
+      top: -90px;
+    }
+
+    button {
+      background-color: green;
+      padding: 10px 35px;
+      text-align: center;
+      margin: 0px 20px;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="p"><b>TECHMATES</b></div>
+      <div class="n">
+        <ul>
+          <li><b><a style="text-decoration: none;
+                color: black;" href="http://127.0.0.1:5500/full%20stack/portfolio/index.html">Home</a> </b></li>
+          <li><b><a style="text-decoration: none;
+            color: black;" href="http://127.0.0.1:5501/full%20stack/portfolio/project.html">Project</a></b></li>
+          <li><b><a style="text-decoration: none;
+  color: black;" href="http://127.0.0.1:5501/full%20stack/portfolio/contact.html">Contact</a></b></li>
+          <li><b><a style="text-decoration: none;
+                color: black;" href="http://127.0.0.1:5501/full%20stack/portfolio/About.html">About</a></b></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="intro">
+    <div class="logo">
+      <img src="logo1.png" alt="logo">
+    </div>
+  </section>
+  <div class="box">
+    <p style="font-size: 20px;font-family:initial;"><b>We are seeking a highly skilled and motivated Full Stack Web
+        Developer with a strong emphasis on front-end development to join our dynamic and collaborative team. As a key
+        member of our development team, you will play a crucial role in designing, implementing, and maintaining web
+        applications that provide an exceptional user experience.</b> </p>
+  </div>
+
+
+
+  <div class="photo">
+    <img class="l1" src="h.jpg" alt="">
+    <img class="l1" src="Amit.jpg" alt="">
+    <!-- <img class="l1" src="h.jpg" alt="">
+    <img class="l1" src="h.jpg" alt=""> -->
+  </div>
+  <div class="name">
+    <button type="Name">Himanshu Trivedi</button>
+    <button type="Name"><a Style="text-decoration: none;
+      color:white;" href="https://main--amiportfolios.netlify.app/" >Amit Sharma</a></button>
+        <!-- <button type="Name">Lavi Kumar</button>
+        <button type="Name">Pavan Kumar</button> -->
+  </div>
+
+
+</body>
+
+</html>
